@@ -9,7 +9,7 @@
   
  <?php   
  // TODO 1: Khai báo 3 biến 
-    $ho_ten = "Nguyễn Văn Minh";  
+    $ho_ten = "Nguyễn Anh Minh";  
     $diem_tb = 9; 
     $co_di_hoc_chuyen_can = true;  
  // TODO 2: In ra thông tin sinh viên  
