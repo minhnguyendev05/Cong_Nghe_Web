@@ -1,0 +1,22 @@
+.upload-box {
+    background: white;
+    padding: 25px;
+    width: 420px;
+    margin: 40px auto;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.upload-box input[type="file"] {
+    width: 95%;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+
+.upload-box button {
+    width: 100%;
+}

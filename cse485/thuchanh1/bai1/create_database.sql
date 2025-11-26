@@ -1,0 +1,10 @@
+CREATE DATABASE IF NOT EXISTS flowers_db;
+
+USE flowers_db;
+
+CREATE TABLE IF NOT EXISTS flowers (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(255) NOT NULL,
+    description TEXT NOT NULL,
+    images TEXT NOT NULL
+);

@@ -1,0 +1,164 @@
+/* Tổng thể */
+body {
+    font-family: "Segoe UI", Roboto, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #fafafa;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Container */
+#container {
+    max-width: 1000px;
+    margin: 30px auto;
+    padding: 20px 25px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.06);
+}
+
+/* Đoạn văn */
+#container div,
+#container span {
+    text-align: justify;
+    font-size: 17px;
+}
+
+/* Tiêu đề */
+.section-title {
+    font-size: 22px;
+    font-weight: bold;
+    margin: 25px 0 10px;
+}
+
+/* Ảnh */
+.image-wrapper {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.image-wrapper img {
+    max-width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 4px 14px rgba(0,0,0,0.12);
+    transition: 0.3s ease;
+}
+
+.image-wrapper img:hover {
+    transform: scale(1.02);
+    opacity: 0.95;
+}
+
+/* Link */
+a {
+    color: #d42e75;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Nút Login */
+.login-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background: linear-gradient(135deg, #ff4f81, #d42e75);
+    color: #fff;
+    border: none;
+    border-radius: 30px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.25s ease;
+    text-decoration: none;
+}
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background: linear-gradient(135deg, #ff4f81, #d42e75);
+    color: #fff;
+    border: none;
+    border-radius: 30px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.25s ease;
+    text-decoration: none;
+}
+
+.bg-blue {
+    background: blue;
+}
+.login-btn:hover {
+    background: linear-gradient(135deg, #ff6e9a, #e33f88);
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(0,0,0,0.12);
+}
+
+/* Form CRUD */
+form {
+    max-width: 500px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background: #f9f9f9;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+form input, form textarea, form button {
+    width: 95%;
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+form button {
+    background: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+form button:hover {
+    background: #0056b3;
+}
+
+/* Nút hành động trong bảng admin */
+.action-buttons a {
+    display: inline-block;
+    padding: 8px 12px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #fff;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background 0.3s ease;
+}
+.action-buttons a.btn-info {
+    background: #17a2b8;
+}
+.action-buttons a.btn-info:hover {
+    background: #138496;
+}
+.action-buttons a.btn-warning {
+    background: #ffc107;
+    color: #212529;
+}
+.action-buttons a.btn-warning:hover {
+    background: #e0a800;
+}
+.action-buttons a.btn-danger {
+    background: #dc3545;
+}
+.action-buttons a.btn-danger:hover {
+    background: #c82333;
+}
